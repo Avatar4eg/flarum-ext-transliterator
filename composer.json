@@ -1,0 +1,31 @@
+{
+  "name": "avatar4eg/flarum-ext-transliterator",
+  "description": "Flarum extension. Transliterator for urls.",
+  "type": "flarum-extension",
+  "keywords": ["url", "language", "latin"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nikolai Morozov",
+      "email": "avanmorozov@gmail.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Avatar4eg\\Transliterator\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Url Transliterator",
+      "icon": {
+        "name": "language",
+        "backgroundColor": "#71B55B",
+        "color": "#000000"
+      }
+    }
+  }
+}
