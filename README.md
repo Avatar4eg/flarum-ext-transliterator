@@ -5,9 +5,11 @@ A small [Flarum](http://flarum.org) extension that transliterate non ASCII chara
 ### Screenshots
 
 Before:  
-![Imgur](https://i.imgur.com/LNDm562.png)  
-After:  
-![Imgur](https://i.imgur.com/XERwgW4.png)  
+![Imgur](https://i.imgur.com/LA7HcGS.png)  
+After (intl):  
+![Imgur](https://i.imgur.com/hUE6yCN.png)  
+After (no intl):  
+![Imgur](https://i.imgur.com/lDD1LTp.png) 
 
 ### Goals
 
