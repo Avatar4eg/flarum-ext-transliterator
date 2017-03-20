@@ -1,5 +1,0 @@
-<?php
-// Symbols
-return [
-    '©' => '(c)',
-];
