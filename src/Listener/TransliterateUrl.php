@@ -21,9 +21,7 @@ class TransliterateUrl
     public function createProperSlug(DiscussionWillBeSaved $event)
     {
         if (array_key_exists('title', $event->data['attributes'])) {
-            $title = $event->discussion->getAttribute('title');
-            $slug = Transliterator::transliterate($title);
-            $event->discussion->setAttribute('slug', $slug);
+            $event->discussion->setAttribute('slug', Transliterator::transliterate($event->discussion->getAttribute('title')));
         }
     }
 }
