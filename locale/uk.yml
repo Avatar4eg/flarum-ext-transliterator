@@ -1,0 +1,6 @@
+avatar4eg-transliterator:
+  admin:
+    settings:
+      modal_title: Налаштування Transliterator
+      parse_button: Обробити існуючі дискусії
+      result: Дискусій оброблено:
