@@ -1,0 +1,6 @@
+avatar4eg-transliterator:
+  admin:
+    settings:
+      modal_title: Transliterator-Einstellungen
+      parse_button: Existierende Diskussionen analysieren
+      result: Analysierte Diskussionen:
